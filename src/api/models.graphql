@@ -1,12 +1,12 @@
 type User {
-  id: ID! 
-  username: String! 
-  email: String! 
-  firstName: String 
+  id: ID!
+  username: String!
+  email: String!
+  firstName: String
   lastName: String
   bio: String
   followers: [User!]!
-  following: [User!]! 
+  following: [User!]!
   posts: [Post!]!
   likes: [Like!]!
   comments: [Comment!]!
@@ -52,7 +52,7 @@ type Room {
 type Message {
   id: ID!
   text: String!
-  from: User! 
+  from: User!
   to: User!
   room: Room!
 }

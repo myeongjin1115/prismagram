@@ -1,2 +1,21 @@
 # prismagram
+
 Instagram clone with Express + Prisma + React and React Native
+
+
+## User Stories
+
+- [X] Create account
+- [ ] Request Secret
+- [ ] Confirm Secret (Login)
+- [ ] Like / Unlike a photo
+- [ ] Comment on a photo
+- [ ] Serach by user
+- [ ] Serach by location
+- [ ] See user profile
+- [ ] Follow / Unfollow User
+- [ ] See the full photo
+- [ ] Edit my profile
+- [ ] Upload a photo
+- [ ] Edit the photo (Delete)
+- [ ] See the feed
