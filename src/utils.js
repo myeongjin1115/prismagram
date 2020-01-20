@@ -19,10 +19,10 @@ export const sendMail = email => {
   return client.sendMail(email);
 };
 
-export const sendSecretMail = (adress, secret) => {
+export const sendSecretMail = (address, secret) => {
   const email = {
     from: "myeongjin1115@prismagram.com",
-    to: adress,
+    to: address,
     subject: "Login Secret for Prismagram",
     html: `Hello! Your login secret is <strong>${secret}</strong>.<br/>Copy paste on the app/website to log in`
   };
