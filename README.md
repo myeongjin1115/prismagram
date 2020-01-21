@@ -9,12 +9,13 @@ Instagram clone with Express + Prisma + React and React Native
 - [x] Confirm Secret (Login)
 - [x] Like / Unlike a photo
 - [x] Comment on a photo
-- [ ] Serach by user
-- [ ] Serach by location
-- [ ] See user profile
-- [ ] Follow / Unfollow User
-- [ ] See the full photo
+- [x] Serach by user
+- [x] Serach by location
+- [ ] Follow User
+- [ ] Unfollow User
 - [ ] Edit my profile
+- [ ] See user profile
+- [ ] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
