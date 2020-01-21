@@ -10,9 +10,14 @@ export default {
       const userProfile = prisma.user({ id: user.id });
       const posts = prisma.user({ id: user.id }).posts();
       return {
-          user: userProfile,
-          posts
-      }
+        user: userProfile,
+        posts
+      };
+    }
+  },
+  User: {
+    fullName: parent => {
+      return `${parent.firstName} ${parent.lastName}`;
     }
   }
 };
